@@ -239,6 +239,9 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .title {
@@ -259,6 +262,15 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  width: 35px;
+  height: 35px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  color: #333; /* Default icon color */
+}
+
+.icon:hover {
+  color: #007BFF; /* Hover color */
+  transform: scale(1.1); /* Slight scaling for a subtle effect */
 }
 
 /* BUTTONS */
@@ -494,3 +506,6 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+

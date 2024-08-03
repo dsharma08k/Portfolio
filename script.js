@@ -51,3 +51,39 @@ function setLightMode() {
     icon.src = icon.getAttribute("src-light");
   });
 }
+
+//Typewritter Effect
+
+document.addEventListener('DOMContentLoaded', function() {
+  const text = "Aspiring Data Analyst";
+  let index = 0;
+
+  function typeWriter() {
+      if (index < text.length) {
+          document.getElementById("typingText").textContent += text.charAt(index);
+          index++;
+          setTimeout(typeWriter, 100); // Adjust the speed of typing here
+      }
+  }
+
+  typeWriter();
+});
+
+//It will directly open Gmail Compose in case someone click on the my email.
+
+document.addEventListener('DOMContentLoaded', function() {
+  const emailLink = document.getElementById('emailLink');
+  emailLink.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent default link behavior
+      window.open('https://mail.google.com/mail/?view=cm&fs=1&to=dsharma08k@gmail.com', '_blank');
+  });
+});
+
+// Effect on profile pic when website load
+
+document.addEventListener('DOMContentLoaded', function() {
+  const profilePic = document.querySelector('.section__pic-container img');
+  profilePic.classList.add('loaded');
+});
+
+
