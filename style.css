@@ -388,20 +388,20 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* Skills SECTION */
 
-#experience {
+#skills {
   position: relative;
 }
 
-.experience-sub-title {
+.skills-sub-title {
   color: var(--secondary-color);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.skills-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -483,6 +483,11 @@ article .icon {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 50%;
+}
+
+.btn-container .project-btn:nth-child(2) {
+  visibility: hidden;
+  pointer-events: none;
 }
 
 /* CONTACT */
