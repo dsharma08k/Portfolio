@@ -1,0 +1,37 @@
+[
+  {
+    "project_id": 1,
+    "project_name": "IBM HR Analytics",
+    "image_url": "./assets/projects/project1.png",
+    "github_link": "https://github.com/dsharma08k/IBM-HR-Analytics-Employee-Attrition-and-Performance",
+    "linkedin_link": "https://projectone.com"
+  },
+  {
+    "project_id": 2,
+    "project_name": "Uber Trip Analysis",
+    "image_url": "./assets/projects/project2.png",
+    "github_link": "https://github.com/dsharma08k/UberTripAnalysis",
+    "linkedin_link": "https://projectone.com"
+  },
+  {
+    "project_id": 3,
+    "project_name": "Coffee Machine Simulator",
+    "image_url": "./assets/projects/project3.png",
+    "github_link": "https://github.com/dsharma08k/CoffeeMachineSimulator",
+    "linkedin_link": "https://projectone.com"
+  },
+  {
+    "project_id": 4,
+    "project_name": "Guess Indian State and UT",
+    "image_url": "./assets/projects/project4.png",
+    "github_link": "https://github.com/dsharma08k/GuessIndianStateAndUT",
+    "linkedin_link": "https://projectone.com"
+  },
+  {
+    "project_id": 5,
+    "project_name": "HR Analytics Dashboard",
+    "image_url": "./assets/projects/project5.png",
+    "github_link": "https://github.com/dsharma08k/HRAnalyticsDashboard",
+    "linkedin_link": "https://projectone.com"
+  }
+]

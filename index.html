@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Divyanshu Sharma's portfolio showcasing skills in Data Analyst, including technical skills, experience, and projects."
+    />
+    <meta
+      name="keywords"
+      content="Data Analyst, Data Science, Python, Excel, PowerBI, C++, Data Analysis, Portfolio"
+    />
+    <meta name="author" content="Divyanshu Sharma" />
+    <title>Divyanshu's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="canonical" href="https://dsharma08k.github.io/Portfolio/" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">DS.</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about" aria-label="About Section">About</a></li>
+          <li>
+            <a href="#experience" aria-label="Experience Section">Experience</a>
+          </li>
+          <li>
+            <a href="#projects" aria-label="Projects Section">Projects</a>
+          </li>
+          <li><a href="#contact" aria-label="Contact Section">Contact</a></li>
+          <li>
+            <img
+              id="modeToggle"
+              class="icon color-icon"
+              src="/assets/general/theme_light.png"
+              src-light="/assets/general/theme_light.png"
+              src-dark="/assets/general/theme_dark.png"
+              alt="Color them icon"
+            />
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">DS.</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            <li>
+              <img
+                id="modeToggle2"
+                class="icon color-icon"
+                src="/assets/general/theme_light.png"
+                src-light="/assets/general/theme_light.png"
+                src-dark="/assets/general/theme_dark.png"
+                alt="Color them icon"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container_1">
+        <img
+          src="/assets/general/profile-pic.png"
+          alt="Divyanshu's profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Divyanshu Sharma</h1>
+        <p class="section__text__p2" id="typingText"></p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('/assets/general/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a
+            href="https://github.com/dsharma08k?tab=repositorises"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/assets/general/github_light.png"
+              src-light="/assets/general/github_light.png"
+              src-dark="/assets/general/github_dark.png"
+              alt="My GitHub profile"
+              class="icon github-icon"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/dsharma08k/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/assets/general/linkedin_light.png"
+              src-light="/assets/general/linkedin_light.png"
+              src-dark="/assets/general/linkedin_dark.png"
+              alt="My LinkedIn profile"
+              class="icon linkedin-icon"
+            />
+          </a>
+          <a
+            href="https://x.com/dsharma08k"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/assets/general/x_light.png"
+              src-light="/assets/general/x_light.png"
+              src-dark="/assets/general/x_dark.png"
+              alt="My X profile"
+              class="icon x-icon"
+            />
+          </a>
+
+          <a
+            href="https://leetcode.com/u/dsharma08k/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/assets/general/leetcode_light.png"
+              src-light="/assets/general/leetcode_light.png"
+              src-dark="/assets/general/leetcode_dark.png"
+              alt="My LeetCode profile"
+              class="icon leetcode-icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container_2">
+          <img
+            src="/assets/general/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="/assets/general/experience_light.png"
+                src-light="/assets/general/experience_light.png"
+                src-dark="/assets/general/experience_dark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Intern <br />Infosys Springboard</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="/assets/general/education_light.png"
+                src-light="/assets/general/education_light.png"
+                src-dark="/assets/general/education_dark.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech in Data Science<br />MIT, Moradabad</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Aspiring Data Analyst, dedicated to expanding my skills in Python,
+              Excel, Power BI, and SQL to transform complex data into actionable
+              insights. I’m passionate about using data to drive strategic
+              decision-making, solve real-world challenges, and deliver
+              measurable impact.
+              <br />
+              <br />
+              Driven by curiosity and a commitment to excellence, I’m
+              continuously learning to stay ahead in the field, with a goal to
+              become a proficient Data Analyst and, ultimately, a Data
+              Scientist. With a detail-oriented mindset, I’m focused on turning
+              raw data into meaningful, impactful solutions that make a
+              difference.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/general/arrow_light.png"
+        src-light="/assets/general/arrow_light.png"
+        src-dark="/assets/general/arrow_dark.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="/assets/general/checkmark_light.png"
+                  src-light="/assets/general/checkmark_light.png"
+                  src-dark="/assets/general/checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python Programming</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/general/checkmark_light.png"
+                  src-light="/assets/general/checkmark_light.png"
+                  src-dark="/assets/general/checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PowerBI</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/general/checkmark_light.png"
+                  src-light="/assets/general/checkmark_light.png"
+                  src-dark="/assets/general/checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Excel</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/general/checkmark_light.png"
+                  src-light="/assets/general/checkmark_light.png"
+                  src-dark="/assets/general/checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Datanase</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/general/checkmark_light.png"
+                  src-light="/assets/general/checkmark_light.png"
+                  src-dark="/assets/general/checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Analysis</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/general/checkmark_light.png"
+                  src-light="/assets/general/checkmark_light.png"
+                  src-dark="/assets/general/checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Statistics</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="/assets/general/checkmark_light.png"
+                  src-light="/assets/general/checkmark_light.png"
+                  src-dark="/assets/general/checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Problem-Solving</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/general/checkmark_light.png"
+                  src-light="/assets/general/checkmark_light.png"
+                  src-dark="/assets/general/checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Team Collaboration</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/general/checkmark_light.png"
+                  src-light="/assets/general/checkmark_light.png"
+                  src-dark="/assets/general/checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Communication</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/general/checkmark_light.png"
+                  src-light="/assets/general/checkmark_light.png"
+                  src-dark="/assets/general/checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adaptability</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/general/arrow_light.png"
+        src-light="/assets/general/arrow_light.png"
+        src-dark="/assets/general/arrow_dark.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="swiper project-slider">
+        <div class="swiper-wrapper">
+          <!-- Project slides will be dynamically injected by JavaScript -->
+        </div>
+        <!-- Swiper pagination and navigation -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <img
+        src="/assets/general/arrow_light.png"
+        src-light="/assets/general/arrow_light.png"
+        src-dark="/assets/general/arrow_dark.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="/assets/general/email_light.png"
+            src-light="/assets/general/email_light.png"
+            src-dark="/assets/general/email_dark.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a id="emailLink" href="#">dsharma08k@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="/assets/general/linkedin_light.png"
+            src-light="/assets/general/linkedin_light.png"
+            src-dark="/assets/general/linkedin_dark.png"
+            alt="My LinkedIn profile"
+            class="icon linkedin-icon"
+            onclick="location.href='https://www.linkedin.com/in/dsharma08k/'"
+          />
+          <p><a href="https://www.linkedin.com/in/dsharma08k/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 DS. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
