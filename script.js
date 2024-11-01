@@ -129,7 +129,7 @@ function loadProjects(projects) {
         <img src="${project.image_url}" alt="${project.project_name}" class="project-img" />
       </div>
       <h2 class="experience-sub-title project-title">${project.project_name}</h2>
-      <div class="btn-container">
+      <div class="btn-container" >
         <button class="btn btn-color-2 project-btn" onclick="window.open('${project.github_link}', '_blank')">Github</button>
         <button class="btn btn-color-2 project-btn" onclick="window.open('${project.linkedin_link}', '_blank')">LinkedIn</button>
       </div>
@@ -138,7 +138,7 @@ function loadProjects(projects) {
     swiperWrapper.appendChild(projectSlide);
   });
 
-// Initialize Swiper after loading projects
+  // Initialize Swiper after loading projects
 
   new Swiper(".project-slider", {
     loop: true,
